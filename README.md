@@ -11,27 +11,13 @@ sudo apt install php8.2-sqlite3
 # Running Composer
 composer install or composer update
 ### Sample of product page
+On help_functions/curl_requests.php
 <!-- It needs a prototype to read all the values and cover all the needed case. In this example is use the Fictional product ID 1256-->
 <!-- Supported currencies with 2 decimal digits
 $ USA Dollars USD
 € Euros EUR
 £ Pounds GBP
 -->
-<!doctype html>
-<html>
-<head>
-<title>Product Page</title>
-<meta name="description" content="Our first page">
-<meta name="keywords" content="html tutorial template">
-</head>
-<body>
-<div id="product_1256_title">Sample Product Title</div>
-<div id="product_1256__ditails">Price
-    <div id="product_1256__price">250$</div>
-    <div id="product_1256__availability">Available</div>
-</div>
-</body>
-</html>
 
 ### Running the script
 
